@@ -1,0 +1,458 @@
+/* Global Styles */
+html {
+    font-size: 16px;
+    letter-spacing: 2%;
+    color: #292929;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #F7F8FA;
+}
+
+.main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    line-height: 140%;
+}
+
+
+h3 {
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 1rem;
+    font-family: 'PT Sans', sans-serif;
+    padding-top: 2rem;
+    padding-bottom: 0.3rem;
+    letter-spacing: 0.1rem;
+}
+
+h4 {
+    padding: 1.5rem;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    ;
+    font-weight: 200;
+    font-size: 1rem;
+    color: #4E4E4E;
+    padding-top: 3%;
+}
+
+.f3-text {
+    padding-left: 8%;
+}
+
+.f4-text {
+    padding-right: 8%;
+}
+
+.f5-text {
+    padding-left: 8%;
+}
+
+/* ul:not(.navbar-nav) {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+} */
+
+
+.line-through {
+    text-decoration: line-through 2px;
+}
+
+
+
+.bio ul {
+    margin: 0px;
+}
+
+.bio ul h5 {
+    padding-top: 1rem;
+
+}
+
+.bio li {
+    list-style-type: none;
+    padding: 0.5rem;
+}
+
+
+
+@media (max-width: 750px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 610px) {
+    html {
+        font-size: 12px;
+    }
+
+
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+/* End of Global Styles */
+
+
+
+/* Navigation */
+nav {
+    letter-spacing: 0.130rem;
+    font-size: 1.8rem;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    font-weight: 200;
+}
+
+.nav-link {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-right: 40px !important;
+}
+
+.dropdown-menu {
+    background-color: #F7F8FA;
+
+
+}
+
+button {
+    margin-top: 1%;
+
+}
+
+
+/* End of Navigation */
+
+/* Intro */
+
+.container-intro {
+    margin-bottom: 8rem;
+}
+
+/* End of Intro */
+/* Hero Box */
+.h5-homepage {
+    margin-top: 5rem;
+    color: grey;
+}
+
+#cn {
+    height: 1.7rem;
+    vertical-align: baseline;
+}
+
+
+
+.bounce:hover {
+    animation: bounce 0.3s infinite 0.5s alternate;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+
+.icons {
+    transition: all 0.3s ease-in-out;
+
+}
+
+.icons:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0) rotateX(20deg);
+    }
+
+    100% {
+        transform: translateY(-10px) rotateX(0deg);
+    }
+}
+
+
+
+/* ff */
+#chevron {
+    height: 1.2rem;
+    vertical-align: middle;
+    margin-left: 0.5rem;
+}
+
+.chevron-right {
+    height: 1.15rem;
+    vertical-align: text-top;
+}
+
+.zoom {
+    transition: 0.3s;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+/* End of Hero Box */
+
+
+/* Footer */
+.footer {
+    transition-delay: 1s;
+    margin-top: 10rem;
+    transition-duration: 0.5s;
+    opacity: 0;
+    padding-bottom: 4rem
+}
+
+.project {
+    font-size: 1.5rem;
+    color: rgb(59, 59, 59);
+    text-decoration: none;
+}
+
+.project:hover {
+    font-weight: 500;
+    color: black
+}
+
+.new-link a {
+    text-decoration: none;
+    border-bottom: 0.1rem solid #adaead;
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #515459;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.new-link a:hover {
+    border-bottom: 0.1rem solid #140871;
+    color: #140871;
+}
+
+.btn.new-link {
+    margin-left: 0px;
+    padding: 0px;
+}
+
+
+.email-link {
+    font-size: 1.1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(62, 62, 62);
+}
+
+.email-link:hover {
+    font-weight: 500;
+
+    color: rgb(20, 20, 20);
+}
+
+.low_footer {
+    background-color: #140871;
+    text-align: center;
+    margin-top: 10rem;
+    padding-bottom: 1rem;
+
+}
+
+.h3-footer {
+    padding-top: 2rem;
+    padding-bottom: 3.5rem;
+    color: #E6E9F8;
+}
+
+.email-link {
+    color: #bec2d3;
+    font-family: 'Nunito', sans-serif;
+    text-transform: lowercase;
+}
+
+.email-link:hover {
+    color: rgb(182, 187, 238);
+}
+
+.resume {
+    margin-top: 0.5rem;
+}
+
+.email {
+    margin-top: 1rem;
+}
+
+
+
+/* End of Footer */
+
+/* Case Study Buttons */
+.p-probe,
+.presto,
+.costco {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 0.1s;
+}
+
+.p-probe img {
+    transition: all 0.1s;
+}
+
+.p-probe:hover img {
+
+    transform: scale(1.5);
+}
+
+.p-probe:hover,
+.presto:hover,
+.costco:hover {}
+
+/* Cards */
+.card {
+    padding: 3rem;
+    background-color: #F7F8FA;
+    margin-top: 2rem;
+    border: hidden;
+}
+
+.card h3 {
+    padding-top: 10%;
+}
+
+/* End of Cards */
+
+.pp-first {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.dropdown-menu {
+    transition: all 0.5s;
+}
+
+/* About */
+.bio {
+    margin-top: 8rem;
+}
+
+ul contact {
+    margin: 5%;
+}
+
+/* End of About */
+
+
+
+
+/* Mobile view */
+@media (max-width: 767px) {
+    .bio .image-fluid {
+        width: 50% !important;
+    }
+}
+
+
+/* Animations */
+.bio {
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+.f1,
+.f2,
+.f3,
+.f4,
+.f5 {
+    transition-duration: 0.7s;
+    opacity: 0;
+}
+
+.f1 {
+    transition-delay: 0;
+}
+
+.f2 {
+    transition-delay: 0.2s;
+}
+
+.f3 {
+    background-color: #D0F2DB;
+    transition-delay: 0.4s;
+}
+
+.f4 {
+    background-color: #F5EDE0;
+    transition-delay: 0.6s;
+}
+
+.f5 {
+    background-color: #E1E9F6;
+    transition-delay: 0.8s;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.2);
+    transition: all 0.2s;
+
+}
+
+
+/* EXPERIMENTAL */
+
+.ig {
+    font-weight: bold;
+    color: #140871;
+    background-image: -webkit-linear-gradient(92deg, #1eff00, #ff0202);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 6s infinite linear;
+}
+
+@-webkit-keyframes hue {
+    from {
+        -webkit-filter: hue-rotate(0deg);
+    }
+
+    to {
+        -webkit-filter: hue-rotate(360deg);
+    }
+}
+
+@media (max-width: 500px) {
+    .brand_icon {
+        width: 30px;
+        height: 35px;
+    }
+}
+
+.navbar-light .navbar-toggler {
+    color: rgb(0 0 0 / 0%);
+    border-color: rgba(255, 255, 255, 0);
+}
+
+.navbar-toggler {
+    font-size: 2.0rem !important;
+}

@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Costco Homepage Redesign</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="icon" href="../Assets/Images/Logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--Header-->
+    <section class="main">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!--margin left here-->
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../Assets/Images/Logo.png" alt="logo" width="40" height="50">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <!--ms-auto here to align right-->
+                        <li class="nav-item dropdown">
+                            <!-- <a class="nav-link active" aria-current="page" href="#">Work</a> -->
+                            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                work<img id="chevron" src="../Assets/Images/chevron_down.png" alt="chevrone">
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="../Views/PollutionProbe.html">Pollution Probe Website
+                                        Redesign</a></li>
+                                <li><a class="dropdown-item" href="../Views/presto.html">Presto</a></li>
+                                <li><a class="dropdown-item" href="../Views/costco.html">Costco Homepage Redesigning
+                                        Project</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Views/about.html">about</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!--End of Header-->
+
+
+    <!--Title-->
+    <h1 class='f1' style="text-align: center;">Costco Homepage Redesigning Project</h1>
+    <!--End of Title-->
+
+
+    <!--Overview-->
+    <div class="row f2">
+        <h4>Project Overview</h4>
+        <p>Costco Wholesale is an American multinational corporation which operates a chain of membership-only big-box
+            retail
+            stores. Costco has a total of 103 locations and serves more than 10 million members across Canada.
+            Because of the pandemic, many customers are switching from in-store shopping to online. However, we believe
+            that Costco
+            is missing an opportunity to convert these customers due to a user experience which overwhelms first-time
+            visitors
+            especially those who are used to targeted-shopping rather than browsing. That’s why we have chosen to
+            redesign the
+            Costco wholesale website.</p>
+        <h5>Problem</h5>
+        <p>Due to the pandemic, more people stopped shopping at actual stores and started to shop online. However, the
+            cluttered
+            Costco website doesn’t provide users quick and easy access to all products and deals, and it prevents them
+            from shopping
+            at Costco.</p>
+        <h5>Solution</h5>
+        <p>Redesign the existing website by organizing navigation systems and implementing intuitive UI design.</p>
+    </div>
+
+    <!--End of Overview-->
+
+
+    <!--Research-->
+    <div class="row f3">
+        <h4>Research</h4>
+        <p>We started our research phase by conducting a heuristic evaluation on the Costco.ca website to understand
+            more about it
+            and build problem assumptions, which were used for creating the user research plan later.</p>
+        <p>KEY FINDINGS</p>
+        <ul>
+            <li>The homepage lacks white space, and the information on the page is overloaded. This gives people a
+                cluttered and
+                overwhelming impression.</li>
+            <li>It’s difficult to identify different content on the page since each section lacks headings.</li>
+            <li>The homepage is not easy to scan. Information needs to be categorized properly in order to create an
+                intuitive user
+                journey.</li>
+            <li>Location on the site is not easily identifiable because the navigation status doesn’t change and the
+                existent of
+                breadcrumbs is inconsistent.</li>
+            <li>Contact information is not very accessible for users. Several steps are needed to find the phone numbers
+                of Costco
+                customer service.</li>
+        </ul>
+        <h4>User Interviews</h4>
+        <p>We also interviewed 6 users who have experienced shopping at Costco before. The interviews were conducted by
+            asking a
+            few open-ended questions related to defined objectives.</p>
+        <p>RESEARCH GOAL</p>
+        <p>Understand the behavior and insights of people who shop at Costco and their experience navigating through the
+            Costco
+            website.</p>
+        <p>OBJECTIVES</p>
+        <ul>
+            <li>To learn more about the overall shopping experience at Costco (in-person or online)</li>
+            <li>To learn about customers’ needs and shopping experience</li>
+            <li>To learn the pain points in navigating the Costco homepage</li>
+        </ul>
+    </div>
+
+
+    <div class="row f4">
+        <h5>User Interview Notes</h5>
+        <div class="col-lg-8">
+            <img class="img-fluid" src="../Assets/Images/Costco_Insight_Map.png" alt="insights">
+        </div>
+
+        <h5>Affinity Diagram</h5>
+        <div class="col-lg-8">
+            <img class="img-fluid" src="../Assets/Images/Costco_Affinity_Diagram.png" alt="insights">
+        </div>
+    </div>
+
+    <div class="row">
+        <h5>User Interview Key Findings</h5>
+        <ul>
+            <li>Since the pandemic started, shoppers reduced their frequency of going in-stores, and they have never
+                used Costco.ca for
+                online shopping. This means regular customers simply stopped shopping with Costco.</li>
+            <li>Instead of shopping at Costco, people are going to less busy stores or buying groceries using other
+                shopping websites
+                such as Amazon and Walmart.</li>
+            <li>Users are not happy to shop at the Costco website because of its cluttered content and the overload of
+                information makes
+                customers want to leave the site.</li>
+            <li>People want to easily find deal information on the Costco website. The thrifty prices are the most
+                popular reason why
+                people shop at Costco.</li>
+            <li>Users do not like spending much time online shopping. Their behavior is more targeted-buying than
+                browsing.</li>
+        </ul>
+    </div>
+
+    <div class="f5">
+        <div class="row">
+            <h5>User Persona</h5>
+            <p>Based on our user research data from the survey and user interviews, we created our user persona. This
+                persona had been
+                referenced often during our project when we make design decisions: "What does Sandra think about this?"
+            </p>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="../Assets/Images/Costco_Persona.png" alt="insights">
+            </div>
+        </div>
+
+        <div class="row">
+            <h5>User Insight</h5>
+            <p>As a full-time professional, Sandra wants to have better interaction by having faster and easier access
+                to
+                all products
+                and deals on the website, as she wants to save time and money.</p>
+            <h5>POV Template</h5>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="../Assets/Images/Costco_POV.png" alt="pov">
+            </div>
+        </div>
+
+        <div class="row">
+            <h5>Problem Statement</h5>
+            <p>From our user research, we discovered that busy professionals who shop and provide essentials for their
+                family do not
+                always want to spend too much time browsing e-commerce websites.
+                However, the cluttered Costco website doesn’t provide users an easy access to all products and deals and
+                it
+                prevents
+                them from shopping.
+
+                How can we transform the browsing user journey at Costco.ca into a valuable shopping experience by
+                alleviating the
+                mental stress from the overwhelming website so they can minimize time and money spent online?</p>
+        </div>
+
+
+        <div class="row">
+            <h5>Feature Prioritization Matrix</h5>
+            <p>We used the feature prioritization matrix to determine which features we would like to focus on this
+                project
+                based on
+                impact for users and feasibility.</p>
+            <div class="col-lg-6">
+                <img class="img-fluid" src="../Assets/Images/Costco_Feature_Prioritization.png" alt="pov">
+            </div>
+
+            <div class="col-lg-6">
+                <p>DETERMINED FEATURES</p>
+                <ul>
+                    <li>Make the deals category easier to find</li>
+                    <li>Organize content on the homepage by limiting the amount of information shown.</li>
+                    <li>Make each section on the homepage distinguishable by adding proper headings and using different
+                        styles</li>
+                    <li>Redesign the main navigation bar to provide an easier navigation system</li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <h5>User Journey Map</h5>
+            <div class="col-lg-6">
+                <img class="img-fluid" src="../Assets/Images/Costco_User_Journey_Map.png" alt="user_journey_map">
+            </div>
+        </div>
+        <!--End of Research-->
+
+
+
+        <!--Information Architecture-->
+        <div class="row">
+            <h4>Information Architecture</h4>
+            <p>Usability testings of the current website and user interviews confirmed that the navigation system and
+                categorization of
+                Costco.ca don’t fulfill its functions. Users can’t find items and sections of the company using an
+                intuitive
+                approach.
+                Hence, we rearranged the website’s categorization, removed duplicated tabs, grouped sections that relate
+                to
+                the same
+                section. Additionally, we changed some of the navigation tabs in order for users to perceive what
+                categories
+                are under
+                the particular group.</p>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="../Assets/Images/Costco_IA_1.png" alt="IA">
+            </div>
+        </div>
+
+        <div class="row">
+            <h5>Sitemap</h5>
+            <p>After iterating to a new navigation and site structure we visually categorize the page and presented into
+                a
+                sitemap.</p>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="../Assets/Images/Costco_Sitemap.png" alt="sitemap">
+            </div>
+        </div>
+
+        <div class="row">
+            <h5>Task Flows</h5>
+            <div class="col-lg-6">
+                <p>These are the 4 tasks flows we did for our user testing.</p>
+                <p>The first task we ask user where can they find deals for laundry products.</p>
+                <p>Second task we ask users to look for in-store photo centre service.</p>
+                <p>Third task we ask users where they can find different categories of products.</p>
+                <p>Last task we ask users where they can find customer services help.</p>
+            </div>
+            <div class="col-lg-6">
+                <img class="img-fluid" src="../Assets/Images/Costco_User_Flow.png" alt="IA">
+            </div>
+        </div>
+        <!--End of Information Architecture-->
+
+
+
+        <!--Testing & Prototyping-->
+        <div class="row">
+            <h5>Sketches</h5>
+            <div class="col-lg-6">
+                <p>After synthesizing the research data, we proceeded to design. Each member of our team presented a
+                    sketched ideas of a
+                    homepage layout. After a round of discussion, we’ve extracted elements that best aligned with our
+                    research takeaways and
+                    shaped the design concept for the Lo-Fi prototype.</p>
+            </div>
+            <div class="col-lg-10">
+                <img class="img-fluid" src="../Assets/Images/Costco_Paper_Wireframes.png" alt="IA">
+            </div>
+        </div>
+
+        <div class="row">
+            <h5>Lo-Fi Prototype</h5>
+            <div class="col-lg-10">
+                <p>The lo-Fi prototype was created based on our design concept. Other than the homepage we designed
+                    additional pages in
+                    order to have complete task flows for further usability testings.</p>
+            </div>
+            <div>
+
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img class="img-fluid" src="../Assets/Images/Costco_Lo-Fi.png" alt="lo_fi">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <h5>Lo-Fi Prototype Usability Testing</h5>
+            <div class="col-lg-10">
+                <p>The first round of Usability testing showed that navigation tabs naming doesn’t seem intuitive for
+                    users.
+                    E.g. users
+                    would never expect to look for Photo Services under the ‘’Warehouse Services’’ tab.</p>
+                <p>Another major finding was that putting the add-on link next to the section heading doesn’t appear as
+                    a
+                    help link to
+                    users. All testers didn’t notice that link.</p>
+                <p>Additionally to navigation and wording, backlogs in layout and design decisions were detected.</p>
+                <p>Based on all the insights from the first usability testings we iterated the prototype and move to the
+                    Mid-Fi version.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <h5>Mid-Fi Prototype</h5>
+            <div class="col-lg-10">
+                <p>In the Mid-Fi version, we changed the titles of navigation tabs. We removed links which functioning
+                    failed at the first
+                    usability testings. We added dropdowns to the top and the main navigation reconsidered the
+                    categorization of the footer.
+                    Also, the prototype was enhanced with UI elements and brand colors.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-8">
+                <img class="img-fluid" src="../Assets/Images/Costco_Mid_Fi.png" alt="mid_fi">
+            </div>
+        </div>
+
+
+        <div class="row">
+            <h5>Mid-Fi Usability Tests's Takeaways</h5>
+            <div class="col-lg-10">
+                <p>The main purpose of this round of testing was to prove the changes we made in homepage sectioning.
+                </p>
+                <p>We wanted to have the “Deals” section as a focal point of our users and it was important for us to
+                    understand the
+                    tester’s behavior and find out whether our design works as intended.</p>
+                <p>Usability testings proved our design concept and users successfully completed the task flow on
+                    finding
+                    the deals on a
+                    particular product using the main section of the homepage. However, having the option to filter the
+                    deals’ category felt
+                    overwhelming for testers and we decided to add this option to the assigned Deals page.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <h5>Hi-Fi Prototype</h5>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-10">
+                <img class="img-fluid" src="../Assets/Images/Costco_Hi_Fi.png" alt="hi-fi">
+            </div>
+        </div>
+
+        <div class="row">
+            <h5>Future Opportunities</h5>
+            <ul>
+                <li>Keep iterating the homepage design by conducting more usability testing and analyzing Google
+                    Analytics &
+                    Hotjar heatmap
+                    data.</li>
+                <li>Organize categories in the customer service section and redesign the page.</li>
+                <li>Streamline the process of choosing between different delivery services.</li>
+                <li>Perform a card sorting activity and organize categories in Shop all department section.</li>
+                <li>Work on adding Chat service to improve Customer experience.</li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <!--End Of Testing & Prototyping-->
+    <div class="row pp-first">
+        <div class="col-md-6">
+            <a href="../Views/presto.html" class="project" tabindex="-1" role="button" aria-disabled="true">
+                ᐊ View Previous Project</a>
+        </div>
+        <div class="col-md-6 text-end ">
+            <a href="../Views/PollutionProbe.html" class="project" tabindex="-1" role="button" aria-disabled="true">
+                View Next Project ᐅ</a>
+        </div>
+    </div>
+
+
+    <!--Footer-->
+    <footer class="footer  pb-4 bg-light">
+        <div class="row links">
+            <div class="col">
+                <div class="row">
+
+                    <div class="col col-sm-3 col-md-3 col-lg-3 col-xl-2">
+                        <a class="email-link"
+                            href="https://drive.google.com/file/d/1n3N2F0VDuVDbtKS9IpGz_LiXDh_C2J0A/view?usp=sharing">Rèsumè</a>
+                    </div>
+                    <div class="col col-sm-4 col-md-3 col-lg-3 col-xl-2">
+                        <a class="email-link" href="https://www.linkedin.com/in/irinagadimova/">LinkedIn</a>
+                    </div>
+                    <div class="col col-sm-3 col-md-2 col-lg-3 col-xl-2">
+                        <a class="email-link" href="https://github.com/Irina180586">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col text-end text-bottom">
+                <a class="email-link" href="mailto:iriny.gadimova@gmail.com?subject=Hello%20Ira, %20let's%20chat!">
+                    iriny.gadimova@gmail.com</a>
+            </div>
+        </div>
+    </footer>
+    <!--End of Footer-->
+
+
+    <!--Separate Popper and Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+        crossorigin="anonymous"></script>
+</body>
+<script src="../Scripts/main.js"></script>
+
+</html>

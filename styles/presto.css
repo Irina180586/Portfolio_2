@@ -1,0 +1,115 @@
+/* Global Styles */
+html {
+    color: #121212;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #F7F8FA;
+}
+
+@media (max-width: 767px) {
+    .main_banner {
+        width: 767px;
+        height: 337px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 560px) {
+    .main_banner {
+        width: 560px;
+        height: 280px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 480px) {
+    .main_banner {
+        width: 480px;
+        height: 200px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 400px) {
+    .main_banner {
+        width: 400px;
+        height: 160px;
+        object-fit: cover;
+    }
+}
+
+div.presto_section {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+div.presto_section span::before {
+    content: "\a";
+    white-space: pre;
+}
+
+span.green {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    text-transform: lowercase;
+    color: #569E41;
+}
+
+span.black {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+span.small_black {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 1.5;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+}
+
+.list {
+    font-family: lato;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.1rem;
+    letter-spacing: 0.02em;
+}
+
+.dash {
+    list-style-type: none;
+    text-indent: -10px;
+}
+
+.dash>li::before {
+    content: "- ";
+}
