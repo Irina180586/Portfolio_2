@@ -223,7 +223,6 @@ button {
     margin-top: 10rem;
     transition-duration: 0.5s;
     opacity: 0;
-    padding-bottom: 4rem
 }
 
 .project {
@@ -455,4 +454,54 @@ ul contact {
 
 .navbar-toggler {
     font-size: 2.0rem !important;
+}
+
+.footer_lets {
+    font-family: Avenir Next;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    color: #140871;
+}
+
+.footer_contact {
+    font-family: Avenir Next;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3rem;
+    letter-spacing: 0.05em;
+    color: #140871;
+    margin-bottom: 3.5rem;
+    margin-top: 1.5rem;
+}
+
+.footer_contact .email {
+    font-family: Avenir Next;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3rem;
+    text-decoration-line: underline;
+    text-transform: lowercase;
+    color: #000000;
+    margin-left: 1.5rem;
+}
+
+.lower_footer {
+    color: #F7F8FA;
+    background: #140871;
+}
+
+.lower_footer .join {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-family: Avenir Next;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.3rem;
+    text-transform: lowercase;
+}
+
+.lower_footer .links {
+    margin-bottom: 4rem;
 }
