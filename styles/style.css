@@ -487,6 +487,10 @@ ul contact {
     margin-left: 1.5rem;
 }
 
+.footer_contact .email:hover {
+    color: #4E4E4E
+}
+
 .lower_footer {
     color: #F7F8FA;
     background: #140871;
