@@ -236,7 +236,13 @@ button {
     color: black
 }
 
-.new-link a {
+@media (max-width: 550px) {
+    .project {
+        font-size: 1.2rem;
+    }
+}
+
+project .new-link a {
     text-decoration: none;
     border-bottom: 0.1rem solid #adaead;
     margin-top: 1rem;
@@ -362,26 +368,28 @@ ul contact {
 }
 
 .myButton {
-	background-color:#140871;
-	border-radius:42px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:'Nunito', sans-serif;
-	font-size:17px;
-	padding:16px 31px;
-	text-decoration:none;
-}
-.myButton:hover {
-	background-color:#5cbf2a;
-    color: white;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
+    background-color: #140871;
+    border-radius: 42px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none;
 }
 
-        
+.myButton:hover {
+    background-color: #5cbf2a;
+    color: white;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+
 
 /* End of About */
 
@@ -420,17 +428,14 @@ ul contact {
 }
 
 .f3 {
-    background-color: #D0F2DB;
     transition-delay: 0.4s;
 }
 
 .f4 {
-    background-color: #F5EDE0;
     transition-delay: 0.6s;
 }
 
 .f5 {
-    background-color: #E1E9F6;
     transition-delay: 0.8s;
 }
 

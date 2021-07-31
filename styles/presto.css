@@ -79,7 +79,7 @@ span.small_black {
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    margin-bottom: 1.5;
+    margin-bottom: 1.5rem;
     font-size: 1.5rem;
     display: flex;
     align-items: center;
@@ -112,4 +112,24 @@ span.small_black {
 
 .dash>li::before {
     content: "- ";
+}
+
+.survey_img {
+    width: 30%;
+}
+
+.presto_survey {
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.prest_survey_element {
+    margin-top: 2rem;
+    ;
+}
+
+.persona {
+    width: 100%;
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
 }

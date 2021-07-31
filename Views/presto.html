@@ -26,7 +26,7 @@
             <!--margin left here-->
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html">
-                    <img class="brand_icon" src="../Assets/Images/Logo.png" alt="logo" width="40" height="50">
+                    <img src="../Assets/Images/Logo.png" alt="logo" width="40" height="50">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -158,7 +158,26 @@
         <div class="row justify-content-start">
             <div class="col-12 col-md-8 presto_section">
                 <span class="small_black">survey findings</span>
-                <!-- Stats Here -->
+            </div>
+            <div class="row justify-content-between presto_survey">
+                <div class="col-md-4 text-center prest_survey_element">
+                    <img class="survey_img" src="../Assets/Images/Presto_Survey_1.png" alt="presto survey 1">
+                    <br>
+                    <br>
+                    <span>Took public transport this year (2020)</span>
+                </div>
+                <div class="col-md-4 text-center prest_survey_element">
+                    <img class="survey_img" src="../Assets/Images/Presto_Survey_2.png" alt="presto survey 1">
+                    <br>
+                    <br>
+                    <span>Take public tranasport daily</span>
+                </div>
+                <div class="col-md-4 text-center prest_survey_element">
+                    <img class="survey_img" src="../Assets/Images/Presto_Survey_3.png" alt="presto survey 1">
+                    <br>
+                    <br>
+                    <span>Use multiple transport servicies for the trip</span>
+                </div>
             </div>
         </div>
     </div>
@@ -205,9 +224,7 @@
                     work is not optional. So the
                     necessity to take public transport and be on time is highly important.</span>
                 <!-- User Persona Images here -->
-                <div class="col-lg-6">
-                    <!-- <img class="img-fluid" src="../Assets/Images/Presto_User_Persona.png" alt="insights"> odd shadow -->
-                </div>
+                <img class="persona" src="../Assets/Images/Presto_User_Persona.png" alt="presto user persona">
             </div>
         </div>
     </div>
@@ -230,42 +247,48 @@
     <section class="main">
         <!-- Page Listers -->
         <div class="row pp-first">
-            <div class="col-md-6">
+            <div class="col-6">
                 <a href="../Views/PollutionProbe.html" class="project" tabindex="-1" role="button" aria-disabled="true">
                     ᐊ View Previous Project</a>
             </div>
-            <div class="col-md-6 text-end ">
+            <div class="col-6 text-end ">
                 <a href="../Views/costco.html" class="project" tabindex="-1" role="button" aria-disabled="true">
                     View Next Project ᐅ</a>
             </div>
         </div>
-
-        <!--Footer-->
-        <footer class="footer pb-4 bg-light" id='footer'>
-            <div class="row links">
-                <div class="col">
-                    <div class="row">
-                        <div class="col col-sm-3 col-md-3 col-lg-3 col-xl-2">
-                            <a class="email-link"
-                                href="https://drive.google.com/file/d/1n3N2F0VDuVDbtKS9IpGz_LiXDh_C2J0A/view?usp=sharing">Rèsumè</a>
-                        </div>
-                        <div class="col col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="email-link" href="https://www.linkedin.com/in/irinagadimova/">LinkedIn</a>
-                        </div>
-                        <div class="col col-sm-3 col-md-2 col-lg-3 col-xl-2">
-                            <a class="email-link" href="https://github.com/Irina180586">GitHub</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col text-end text-bottom">
-                    <a class="email-link" href="mailto:iriny.gadimova@gmail.com?subject=Hello%20Ira, %20let's%20chat!">
-                        iriny.gadimova@gmail.com</a>
-                </div>
-            </div>
-        </footer>
-        <!--End of Footer-->
     </section>
+    <!-- Footer -->
+    <div class="footer">
+        <div class="row">
+            <div class="d-flex justify-content-center footer_lets">
+                <span>Let's work together!</span>
+            </div>
+            <div class="d-flex justify-content-center footer_contact">
+                <span>contact me at: <a href="mailto:iriny.gadimova@gmail.com"
+                        class="email">iriny.gadimova@gmail.com</a></span>
+            </div>
+        </div>
+    </div>
+    <div class="row lower_footer">
+        <div class="col-1 col-md-4"></div>
+        <div class="col-10 col-md-4">
+            <div class="d-flex justify-content-center join">
+                <span>or join me on social:</span>
+            </div>
+            <div class="d-flex justify-content-evenly links">
+                <a class="navbar-brand" target="_blank" href="https://www.linkedin.com/in/irinagadimova/">
+                    <img src="../Assets/Images/linkedin_icon.png" alt="logo" width="35" height="35">
+                </a>
+                <a class="navbar-brand" target="_blank" href="https://dribbble.com/Irinagdm/shots">
+                    <img src="../Assets/Images/dribbble_icon.png" alt="logo" width="35" height="35">
+                </a>
+                <a class="navbar-brand" target="_blank" href="https://www.behance.net/irinagadimova">
+                    <img src="../Assets/Images/behance-icon.png" alt="logo" width="50" height="30">
+                </a>
+            </div>
+        </div>
+        <div class="col-1 col-md-4"></div>
+    </div>
 
     <!--Scripts-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
