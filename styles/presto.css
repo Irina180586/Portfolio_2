@@ -166,3 +166,21 @@ span.italic {
 .container {
     padding-left: 5rem;
 }
+
+.wireframe {
+    max-height: 25rem;
+    height: 25rem;
+    background-image: url("../Assets/Images/Presto_HI/Presto_Hi_Fi_Background.png");
+}
+
+.wire_img {
+    height: 100%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.low_frame {
+    max-height: 25rem;
+    height: 25rem;
+    background-image: url("../Assets/Images/Presto Low/Presto_Lo_Fi_Background.png");
+}
