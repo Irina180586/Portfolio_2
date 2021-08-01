@@ -428,10 +428,12 @@ ul contact {
 }
 
 .f3 {
+
     transition-delay: 0.4s;
 }
 
 .f4 {
+
     transition-delay: 0.6s;
 }
 
@@ -443,6 +445,18 @@ ul contact {
     transform: scale(1.2);
     transition: all 0.2s;
 
+}
+
+.presto_card {
+    background-color: #D0F2DB;
+}
+
+.polution_card {
+    background-color: #E1E9F6;
+}
+
+.costco_card {
+    background-color: #F5EDE0;
 }
 
 
