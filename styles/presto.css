@@ -43,8 +43,8 @@ body {
 div.presto_section {
     padding-left: 1.2rem;
     padding-right: 1.2rem;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
 }
 
 div.presto_section span::before {
@@ -85,6 +85,15 @@ span.small_black {
     align-items: center;
     letter-spacing: 0.02em;
     text-transform: uppercase;
+}
+
+span.italic {
+    font-family: Lato;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    color: #000000;
 }
 
 .text {
@@ -132,4 +141,9 @@ span.small_black {
     width: 100%;
     margin-top: 1.5rem;
     margin-bottom: 4rem;
+}
+
+.divider {
+    width: 50%;
+    margin: 0.5rem auto;
 }
