@@ -242,7 +242,7 @@ button {
     }
 }
 
-project .new-link a {
+.new-link a {
     text-decoration: none;
     border-bottom: 0.1rem solid #adaead;
     margin-top: 1rem;
