@@ -156,11 +156,14 @@ button {
     color: grey;
 }
 
-#cn {
+.cn {
     height: 1.7rem;
     vertical-align: baseline;
 }
 
+.not_cn {
+    height: 1.7rem;
+}
 
 
 .bounce:hover {
