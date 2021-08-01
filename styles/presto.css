@@ -78,13 +78,27 @@ span.black {
 span.small_black {
     font-family: Inter;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 600;
     margin-bottom: 1.5rem;
     font-size: 1.5rem;
     display: flex;
     align-items: center;
     letter-spacing: 0.02em;
     text-transform: uppercase;
+}
+
+span.green_under {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    display: inline-block;
+    border-bottom: 4px solid #569E41;
 }
 
 span.italic {
@@ -139,9 +153,10 @@ span.italic {
 
 .persona {
     width: 100%;
-    margin-top: 1.5rem;
+    margin-top: 3rem;
     margin-bottom: 4rem;
 }
+
 
 .divider {
     width: 50%;
