@@ -1,0 +1,102 @@
+.intro {
+    margin-top: 3rem;
+    font-family: Avenir Next;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #4E4E4E;
+}
+
+.IG {
+    font-family: Avenir Next;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4rem;
+    text-transform: capitalize;
+    color: #292929;
+}
+
+.top_row {
+    margin-top: 8rem;
+    padding-bottom: 6rem;
+}
+
+.resume {
+    margin-top: 3rem;
+    font-family: Avenir Next;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    text-decoration-line: underline;
+    color: #140871;
+}
+
+.pic {
+    max-height: 20rem;
+}
+
+.right {
+    margin-left: 5rem;
+}
+
+.white {
+    background-color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.story {
+    font-family: Avenir Next;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.9rem;
+    text-transform: capitalize;
+    color: #292929;
+}
+
+.par {
+    margin-top: 2rem;
+    font-family: Avenir Next;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #4E4E4E;
+}
+
+.bot_row {
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.skillz {
+    padding-top: 3rem;
+}
+
+.title {
+    font-family: Avenir Next;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    color: #140871;
+}
+
+.list li {
+    padding-top: 1rem;
+    font-family: Avenir Next;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    color: #292929;
+}
